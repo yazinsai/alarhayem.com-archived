@@ -117,10 +117,27 @@ That looks way too forced. It's screaming newbie! Let's
   color: #fff;
   padding: 10px 20px;">Hi there!</button>
 
-Better, but still looks &hellip; off.
+Better, but still looks &hellip; off. I think it might help to add an inset shadow in there as well. While we're at it, let's also fix the border &mdash; it looks too strong. Let's give it a shot:
+
+```html
+<button style="
+  box-shadow: 2px 2px 4px 1px rgba(90,90,90,.4), 
+              inset 0 0 5px 1px rgba(255,255,255,.1);
+  background: linear-gradient(to bottom right, #f7b733, #fc4a1a);
+  border: 1px solid rgba(252,74,26,.6);
+  border-radius: 3px;color: #fff;padding: 10px 20px;">
+```
+
+<button style="box-shadow: 2px 2px 4px 1px rgba(90,90,90,.4), inset 0 0 5px 1px rgba(255,255,255,.1);background: linear-gradient(to bottom right, #f7b733, #fc4a1a);border: 1px solid rgba(252,74,26,.6);border-radius: 3px;color: #fff;padding: 10px 20px;">Hi there!</button>
+
+Yup, that looks nicer still!
 
 I did some searching and [found](https://www.smashingmagazine.com/2017/02/shadows-blur-effects-user-interface-design/) this excellent image that sums up how elevation affects the shadow of an object (in terms of size and blur):
 
 ![Shadows](/assets/object-elevation-shadow-opt.gif)
 
+That's it for now! I'll dig into this more in future posts, but this is quite nice for such an early try :)
 
+Next&hellip;
+
+- Hover state shadows, etc
