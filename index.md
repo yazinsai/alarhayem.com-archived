@@ -11,6 +11,6 @@ description:
 
 ![Dr.Abdul Alarhayem](./media/abdul-alarhayem-2.jpeg)
 
-Some links of interest:
+Some links that may be of interest:
 
 - [ResearchGate](https://www.researchgate.net/profile/Abdul_Alarhayem)
