@@ -16,3 +16,9 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: text
+  name: description
+  label: Description
+  description: Used for SEO optimization
+  config:
+    required: true
