@@ -2,3 +2,7 @@
 main:
   - title: "Resume"
     url: /resume/
+  - title: "Publications"
+    url: /publications/
+  - title: "Awards"
+    url: /awards/
