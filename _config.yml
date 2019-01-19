@@ -19,9 +19,9 @@ theme: minimal-mistakes-jekyll
 locale                   : "en"
 title                    : "Dr. Abdul Qader Alarhayem"
 title_separator          : "-"
-name                     : "Official"
+name                     : "Dr. Abdul Q. Alarhayem"
 description              : > # this means to ignore newlines until next key
-  Dr.
+  Dr. Abdul Q Alarhayem is a Vascular Surgery Fellow at the Cleveland Clinic
 url                      : "https://alarhayem.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yazinsai/alarhayem" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -81,17 +81,17 @@ social:
 
 # Analytics
 analytics:
-  provider        : false # false (default), "google", "google-universal", "custom"
+  provider        : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id   : 
+    tracking_id   : "UA-132812338-1"
 
 
 # Site Author
 author:
-  name             : "Abdul Q. Alarhayem"
+  name             : "Dr. Alarhayem"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "General and Vascular Surgery"
-  location         : "Cleveland, OH"
+  bio              : "General and Vascular Surgery Fellow"
+  location         : "Cleveland Clinic, OH"
   email            : "alarhayema@outlook.com"
   uri              :
   bitbucket        :
